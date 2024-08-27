@@ -1,3 +1,8 @@
 function esBisiesto(anio) {
-    return true;
+    if(anio === 4 || anio % 400 === 0){
+        return true;
+    }
+    return false;
 }
+
+export default esBisiesto;
